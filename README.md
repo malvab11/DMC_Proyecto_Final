@@ -13,6 +13,15 @@ La aplicación carga los personajes de forma incremental (página por página) y
 
 ---
 
+## 📸 Capturas de Pantalla
+Guarda tus screenshots en la carpeta `screenshots/`.  
+Ejemplos sugeridos:  
+- `loading.jpeg` – Indicador de carga.  
+- `screen1.jpeg` – Primera vista de imagenes.
+- `screen2.jpeg` – Segunda vista de imagenes.
+
+---
+
 ## ✨ Características
 
 - 📡 **Carga Incremental de Datos**: Obtiene personajes página por página desde la API, mostrando los resultados en tiempo real.  
