@@ -16,9 +16,10 @@ La aplicación carga los personajes de forma incremental (página por página) y
 ## 📸 Capturas de Pantalla
 Guarda tus screenshots en la carpeta `screenshots/`.  
 Ejemplos sugeridos:  
-- `loading.jpeg` – Indicador de carga.  
-- `screen1.jpeg` – Primera vista de imagenes.
-- `screen2.jpeg` – Segunda vista de imagenes.
+
+![Estado de carga](screenshots/loading.jpeg)
+![Lista de personajes 1](screenshots/screen1.jpeg)
+![Lista de personajes 2](screenshots/screen2.jpeg)
 
 ---
 
