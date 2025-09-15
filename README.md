@@ -41,29 +41,30 @@ La aplicación carga los personajes de forma incremental (página por página) y
 
 ## 📂 Estructura del Proyecto
 
+```bash
 DMC_Proyecto_Final/
 ├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/proyectofinal/
-│ │ │ │ ├── data/ # Capa de datos
-│ │ │ │ │ ├── dto/ # DTOs para respuestas de la API
-│ │ │ │ │ ├── mapper/ # Mapeadores DTO -> Entidades
-│ │ │ │ │ ├── remote/ # Servicio de API con Retrofit
-│ │ │ │ │ ├── repository/# Implementaciones del repositorio
-│ │ │ │ ├── di/ # Módulos de Hilt
-│ │ │ │ ├── domain/ # Entidades y casos de uso
-│ │ │ │ ├── presentation/ # ViewModels y UI (Compose)
-│ │ │ ├── res/ # Recursos (temas, strings)
-│ │ │ ├── AndroidManifest.xml
-│ ├── build.gradle.kts # Configuración del módulo
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/proyectofinal/
+│   │   │   │   ├── data/          # Capa de datos
+│   │   │   │   │   ├── dto/       # DTOs para respuestas de la API
+│   │   │   │   │   ├── mapper/    # Mapeadores DTO -> Entidades
+│   │   │   │   │   ├── remote/    # Servicio de API con Retrofit
+│   │   │   │   │   ├── repository/# Implementaciones del repositorio
+│   │   │   │   ├── di/            # Módulos de Hilt
+│   │   │   │   ├── domain/        # Entidades y casos de uso
+│   │   │   │   ├── presentation/  # ViewModels y UI (Compose)
+│   │   │   ├── res/               # Recursos (temas, strings)
+│   │   │   ├── AndroidManifest.xml
+│   ├── build.gradle.kts           # Configuración del módulo
 ├── gradle/
-│ ├── libs.versions.toml # Versiones de dependencias
-├── build.gradle.kts # Configuración del proyecto
-├── README.md # Este archivo
-├── screenshots/ # Carpeta para capturas
+│   ├── libs.versions.toml         # Versiones de dependencias
+├── build.gradle.kts               # Configuración del proyecto
+├── README.md                      # Este archivo
+├── screenshots/                   # Carpeta para capturas
 
-
+```
 ---
 
 ## 🧠 Implementación del Patrón MVVM
